@@ -71,10 +71,10 @@ This project implements a full-stack Pokémon explorer with a focus on clean UI/
 3. **Set up environment variables**
 
    ```bash
-   cp .env.example .env
+   cp .env.example .env.local
    ```
 
-   Edit `.env` and set your backend URL:
+   Edit `.env.local` and set your backend URL:
 
    ```env
    NEXT_PUBLIC_API_BASE_URL=http://localhost:4000
