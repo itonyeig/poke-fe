@@ -6,8 +6,8 @@ import { PokemonListItem, FavoritePokemon } from "@/types";
 import { PokemonList } from "@/components/PokemonList";
 import { PokemonDetailPanel } from "@/components/PokemonDetailPanel";
 import { ControlsBar } from "@/components/ControlsBar";
-import { motion } from "framer-motion";
 import { Zap } from "lucide-react";
+import toast from "react-hot-toast";
 
 export default function Home() {
   // Data State
@@ -90,8 +90,7 @@ export default function Home() {
       }
     } catch (err) {
       console.error("Error toggling favorite:", err);
-      // Ideally show a toast here
-      alert("Failed to update favorites. Please try again.");
+      toast.error("Failed to update favorites. Please try again.");
     }
   };
 
