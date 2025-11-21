@@ -1,4 +1,4 @@
-# PokéDex - Full Stack Application
+# PokeDex - Full Stack Application
 
 A modern, animated Pokédex application built with Next.js (React) frontend and Node.js backend. This application allows users to browse the first 150 Pokémon, view detailed information, and manage a favorites list.
 
